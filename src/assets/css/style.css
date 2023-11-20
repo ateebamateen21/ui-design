@@ -10,3 +10,13 @@ header, footer{
 body{
     /* background-color: blue; */
 }
+
+.image-container {
+    max-width: 90%; /* Set a maximum width for the image container */
+  }
+  
+  @media (max-width: 767px) {
+    .image-container {
+      max-width: none; /* Remove the maximum width on smaller screens */
+    }
+  }
