@@ -7,7 +7,7 @@ const Advantage = () => {
     }
   return (
     <>
-    <Container  fluid className="bg-secondary " style={bgImage}>
+    <Container  fluid style={bgImage}>
         <Row className='p-3'>
             <Col className='text-center'>
             <img src="https://droidbot-official.web.app/static/media/advantageBowl.1bd10dbccebb9f8cbf3e.png" alt="benefits of droidbot" className="img-fluid mx-auto " />
@@ -18,4 +18,4 @@ const Advantage = () => {
   )
 }
 
-export default Advantage
+export default Advantage;
