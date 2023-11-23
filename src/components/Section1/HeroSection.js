@@ -3,15 +3,16 @@ import React from 'react'
 import { Container } from 'reactstrap';
 import Navigation from './Navigation';
 import MainSection from './MainSection';
+import "../../assets/css/style.scss";
 
  const HeroSection = () => {
 
-    const Styling = {
-        backgroundImage: 'url("https://droidbot-official.web.app/static/media/hero-background.f96dfe576230a9ebefca.png")',
-    }
+
     return (
         <>
-            <Container className='' fluid style={Styling}>
+            <Container fluid className='heroBg' >
+                {/* css applied in sass file */}
+
                 <Navigation />
                 <MainSection />
             </Container>

@@ -1,25 +1,17 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap';
 import bar from "../../assets/img/bar.png";
-import footerImg from "../../assets/img/footerImg.png";
+import "../../assets/css/style.scss";
 
 const Footer = () => {
-    const footerBg = {
-        backgroundImage: "url(https://droidbot-official.web.app/static/media/Footer-bg.23f51829408025366c5d.png)",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        overflow: 'hidden',
-
-    }
     return (
         <>
-        <div style = {footerBg} className='img-fluid' >
+        <div  className='img-fluid footerBg ' >
 
             <Container className="text-light text-center p-3">
                 <Row>
                     <Col>
-                        <h1>DroidBot</h1>
+                        <h4>DroidBot</h4>
                         <p>Contact us</p>
                     </Col>
                 </Row>

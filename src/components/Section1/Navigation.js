@@ -1,10 +1,11 @@
 import React from 'react'
 import { Button, Col, Container, NavbarBrand, Row } from 'reactstrap'
 import { FaUser } from 'react-icons/fa';
+import "../../assets/css/style.scss";
 const Navigation = () => {
   return (
     <>
-      <Container fluid className='p-4'>
+      <Container  className='pt-3 pb-3 p-0'>
         <Row >
           <Col  >
           
@@ -14,7 +15,7 @@ const Navigation = () => {
           </Col>
           <Col className='d-flex justify-content-end'>
             <Button className="rounded-pill bg-white text-dark truncate-text" >
-              "LOGIN"
+              LOGIN
               <FaUser />
             </Button >
           </Col>

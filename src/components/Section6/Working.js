@@ -1,17 +1,15 @@
 import React from 'react'
 import usingbot from "../../assets/img/usingbot.png";
 import { Button, Col, Container, Row } from 'reactstrap';
+import "../../assets/css/style.scss";
 
 const Working = () => {
-    const WorkingColor = {
-        backgroundColor: "#fbdef6",
-    }
 
     return (
         <>
-            <div style={WorkingColor} >
+            <div className='Sec6Bg' >
 
-                <Container className="container-sm container-md container-lg  p-4 ">
+                <Container className="container-sm container-md container-lg  p-sm-2 ">
                     <h4 className='text-center'>How DroidBot works?</h4>
                     <Row className='m-lg-4'>
                         <Col className='col-12 col-sm-12 col-md-12 col-lg-6 mt-2 mb-2 text-center '>
